@@ -36,3 +36,23 @@
 #             return(char)
 # lst = [-1,3,4,5]
 # print(kwadratenSom(lst))
+
+
+
+
+
+
+
+# 4 Final Assignment NS
+def standaardprijs(afstandKM):
+    if afstandKM > 50:
+        return 15 + (1.40 * afstandKM)
+    elif afstandKM <= 0:
+        return 0
+    else:
+        return 0.80 * afstandKM
+
+test = 60
+print("€" + "%.2f" % standaardprijs(test))
+
+def ritprijs(leeftijd, weekendrit, afstandKM):
