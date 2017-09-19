@@ -30,18 +30,13 @@
 # print(newPassword(ww2,ww))
 
 # 4_5
-# def kwadratenSom(grondgetallen):
+# def kwadraten_som(grondgetallen):
 #     for char in grondgetallen:
 #         if char >= 0:
-#             return(char)
-# lst = [-1,3,4,5]
-# print(kwadratenSom(lst))
-
-def kwadraten_som
-
-
-
-
+#             print(char**2)
+#
+# lst = [4,5,3,-81]
+# kwadraten_som(lst)
 
 
 # # 4 Final Assignment NS
@@ -70,7 +65,7 @@ def kwadraten_som
 #             return standaardprijs(afstandKM) * 0.6
 #         else: return standaardprijs(afstandKM)
 #
-#     # user input
+# # user input
 # afstandKM = int(input('Hoeveel kilometer? '))
 # leeftijd = int(input('Hoe oud bent u? '))
 # weekendrit = input('Reist u wel of niet in het weekend? ')
