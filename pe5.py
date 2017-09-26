@@ -1,9 +1,12 @@
-def convert(temp):
-    res = temp * 1.8 * 32
-    return res
+# 5_1
+# def convert(celcius):
+#     fahrenheit = celcius * 1.8 + 32
+#     return fahrenheit
+#
+# def table():
+#     print('{:8} {:1}' .format(' C','F'))
+#     for char in range(-30,50,10):
+#         print('{:3} {:8}' .format(char, convert(char)))
+# table()
 
-vriendin = 0
-if vriendin == "rijk":
-    vriendin = vriendin + 1
-else: "youri mulder zn 06 is ..."
-
+# 5_2
