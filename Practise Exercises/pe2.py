@@ -1,4 +1,4 @@
-# 2_2
+# # 2_2
 # cijferICOR = 5;
 # cijferPROG = 4;
 # cijferCSN = 7;
@@ -10,12 +10,12 @@
 # print("gemiddelde cijfer is:" + str(round(gemiddelde,1)) + " beloning is €" + str(beloning) + ". \n")
 # print(overzicht)
 
-# 2_3
+# # 2_3
 0 == (1 == 2)
 2 + (3 == 4) + 5 == 7
 (1 < -1) == (3 > 4)
 
-# 2_4
+# # 2_4
 # salary = input('Wat verdien je per uur? ')
 # hours = input('Hoeveel uur heb je gewerkt? ')
 # totalsalary = int(salary) * int(hours)
