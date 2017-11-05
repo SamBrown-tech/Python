@@ -1,8 +1,8 @@
-# # 3_1
-#score = input('Wat is uw score? ')
-#if int(score) > 15:
-#    print('Gefeliciteerd, u  bent geslaagd met ' + str(score) + ' punten!')
-#else: print('Helaas, u bent gezakt.')
+# 3_1
+score = input('Wat is uw score? ')
+if int(score) > 15:
+   print('Gefeliciteerd, u  bent geslaagd met ' + str(score) + ' punten!')
+else: print('Helaas, u bent gezakt.')
 
 # # 3_2
 #age = input('wat is uw leeftijd? ')

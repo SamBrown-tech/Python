@@ -1,15 +1,15 @@
-# # 5_1
-# def convert(celsius):
-#     fahrenheit = celsius * 1.8 + 32
-#     return fahrenheit
-# celsius = int(input("Hoeveel graden celcius? "))
-# print(convert(celsius))
-#
-# def table():
-#     print('{:8} {:1}' .format(' C','F'))
-#     for char in range(-30,50,10):
-#         print('{:3} {:8}' .format(char, convert(char)))
-# table()
+# 5_1
+def convert(celsius):
+    fahrenheit = celsius * 1.8 + 32
+    return fahrenheit
+celsius = int(input("Hoeveel graden celcius? "))
+print(convert(celsius))
+
+def table():
+    print('{:8} {:1}' .format(' C','F'))
+    for char in range(-30,50,10):
+        print('{:3} {:8}' .format(char, convert(char)))
+table()
 
 # # 5_2
 # def readfile():

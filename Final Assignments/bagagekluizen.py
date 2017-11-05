@@ -26,7 +26,6 @@ def nieuwe_kluis():
             outfile.write(str(kluizenlijst[0]) + ";" + code + "\n")
         else: print("De code moet minimaal 4 characters bevatten!")
     else: print("Helaas, er zijn geen kluizen meer beschikbaar")
-    outfile.close()
 
 
 def kluis_openen():
@@ -50,15 +49,9 @@ def kluis_openen():
             print("Het kluisnummer en wachtwoord komen niet met elkaar overeen.")
     else: print("Het kluisnummer is niet in gebruik.")
 
-
-def kluis_teruggeven():
-    print('nog doen')
-
-
 print("1: Ik wil weten hoeveel kluizen er nog vrij zijn \n"
 "2: Ik wil een nieuwe kluis \n"
-"3: Ik wil even iets uit mijn kluis halen \n"
-"4: Ik geef mijn kluis terug \n")
+"3: Ik wil even iets uit mijn kluis halen \n")
 
 option = input('Voer uw keuze in: ')
 if option == "1":
@@ -67,8 +60,5 @@ elif option == "2":
     nieuwe_kluis()
 elif option == "3":
     kluis_openen()
-elif option == "4":
-    kluis_teruggeven()
-elif option == "5":
-    print("nog doen")
-else: print("Voer aub een getal van 1 t/m 5 in")
+
+else: print("Voer aub een getal van 1 t/m 3 in.")

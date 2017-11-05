@@ -13,13 +13,13 @@
 # [5,2,1]       [5,2,1]     list
 # 5 in [1,4,6]  False       bool
 
-# # 1_2
-# print(len('Supercalifragilisticexpialidocious'))
-# print('ice' in "Supercalifragilisticexpialidocious")
-# print(len("Antidisestablishmentarianism") > len("Honorificabilitudinitatibus"))
-# list = ['Berlioz', 'Borodin', 'Brian', 'Bartok', 'Bellini', 'Buxtehude', 'Bernstein']
-# list.sort()
-# print(list)
+# 1_2
+print(len('Supercalifragilisticexpialidocious'))
+print('ice' in "Supercalifragilisticexpialidocious")
+print(len("Antidisestablishmentarianism") > len("Honorificabilitudinitatibus"))
+list = ['Berlioz', 'Borodin', 'Brian', 'Bartok', 'Bellini', 'Buxtehude', 'Bernstein']
+list.sort()
+print(list)
 
 # # 1_3
 # a = 6; b = 7;
