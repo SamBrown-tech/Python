@@ -29,4 +29,4 @@ afstandKM = int(input('Hoeveel kilometer? '))
 leeftijd = int(input('Hoe oud bent u? '))
 weekendrit = input('Reist u wel of niet in het weekend? ')
 
-print("Uw ritprijs is €" + str(ritprijs(leeftijd,weekendrit,afstandKM)))
+print("Uw ritprijs is €" + "%.2f" % ritprijs(leeftijd,weekendrit,afstandKM))
